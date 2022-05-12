@@ -1,0 +1,24 @@
+@import '../Varebels/Varebles.scss';
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color:$blackcolor;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    }
+    .navbar a {
+        color: $whitecolor;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: $titlefont;
+        margin: 10px;
+    }
+    .navbar .links{
+        margin-right: 50px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
